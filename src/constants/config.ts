@@ -40,17 +40,17 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
+    title: "Simon Benitez | Dev Portfolio",
+    fullName: "Simon Benitez",
     email: "johndoe@mail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Simon",
+    p: ["I'm a Full Stack Developer"],
   },
   contact: {
-    p: "Get in touch",
-    h2: "Contact.",
+    p: "Intrested in hiring me?",
+    h2: "Contact Me.",
     form: {
       name: {
         span: "Your Name",
@@ -66,16 +66,18 @@ export const config: TConfig = {
   sections: {
     about: {
       p: "Introduction",
-      h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      h2: "If I may...",
+      content: `I am a full-stack developer with experience working on both solo and collaborative 
+      projects focused on usability, performance, and clean architecture. Currently, I’m using Figma 
+      to design and prototype UI/UX concepts for ULimo, a growing startup developing a feature called 
+      “Dynamic Ride Share” set to launch this summer. The project has given me hands-on product design 
+      experience while I continue growing as a developer and exploring new opportunities in both 
+      software development and cybersecurity. I’m also working toward my CompTIA Security+ certification 
+      by first completing the Google Cybersecurity Professional Certificate to build a strong foundation.`,
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      p: "I am actively looking for work",
+      h2: "Relevant Work Experience.",
     },
     feedbacks: {
       p: "What others say",

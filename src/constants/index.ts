@@ -24,14 +24,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
-  tripguide,
+  linux,
   threejs,
+  geeksquad,
+  ulimo,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -41,7 +39,7 @@ export const navLinks: TNavLink[] = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
   },
   {
     id: "contact",
@@ -51,19 +49,19 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Web App Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "UI/UX Designer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "IT Consultant Support Agent",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Ethical Hacker Enthusiast",
     icon: creator,
   },
 ];
@@ -125,55 +123,29 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "IT Consultant | Support Agent",
+    companyName: "Geeksquad - Part-time",
+    icon: geeksquad,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Performed diagnostics on consumer hardware & software, identifying technical failures.",
+      "Provided tier-1 and tier-2 technical support, including OS re-installation, Device Setup & Customization, data backup and transfer, and peripheral integration.",
+      "Assessed system performance and recommended hardware upgrades, software optimizations, or configuration changes tailored to client needs.",
+      "Delivered post-repair/service client consultations: explaining resolutions, demonstrating proper usage, and ensuring confidence with newly serviced devices.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "Software Developer",
+    companyName: "ULimo - (Startup Project Team) so far I've..",
+    icon: ulimo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "April 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed high-fidelity UI mockups in Figma for both desktop and mobile platforms, contributing to interface planning and layout decisions.",
+      "Collaborated directly with the company founder during product discussions to shape the upcoming “Dynamic Ride Share” feature.",
+      "Proposed and implemented new “Contact Us” and “Careers” sections to improve outreach and attract future collaborators and interns.",
+      "Participated in a remote team using Figma, Google Docs, and Discord to iterate on design & function ideas and share feedback.",
     ],
   },
 ];
@@ -207,7 +179,7 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Quick Markets",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -228,20 +200,20 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Dev Portfolio",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Customized an open source 3D portfolio website using React Three Fiber, showcasing my skills, experience, and projects in a visually engaging manner, with integrated API functionality for real-time communication.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "react-three-fiber",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
@@ -249,25 +221,25 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Ubuntu Dual Boot",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Resurrected a broken Ubuntu | Windows dual-boot system using terminal level recovery: GRUB repair, EFI reconfiguration, and chroot access via Live USB. No reinstall was needed.",
     tags: [
       {
-        name: "nextjs",
+        name: "linux",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "bash",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "efi",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: linux,
+    sourceCodeLink: "https://github.com/simonjb679/ubuntu-dual-boot-recovery.git",
   },
 ];
 
