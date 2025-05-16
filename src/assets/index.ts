@@ -25,9 +25,11 @@ import threejs from "./tech/threejs.svg";
 
 import geeksquad from "./company/geeksquad.png";
 import ulimo from "./company/ulimo.png";
+import brianjanoscrat from "../assets/testimonials/brianjanoscrat.jpeg";
+import alexkotmel from "../assets/testimonials/alexkotmel.jpeg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import stocksim from "./stocksim.png";
+import devportfolio from "./devportfolio.png";
 import linux from "./linux.webp";
 
 export {
@@ -54,7 +56,9 @@ export {
   threejs,
   geeksquad,
   ulimo,
-  carrent,
-  jobit,
+  stocksim,
+  devportfolio,
   linux,
+  brianjanoscrat,
+  alexkotmel,
 };

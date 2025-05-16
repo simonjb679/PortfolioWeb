@@ -40,7 +40,7 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "Simon Benitez | Dev Portfolio",
+    title: "Simon Benitez | My Portfolio",
     fullName: "Simon Benitez",
     email: "johndoe@mail.com",
   },
@@ -67,30 +67,28 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "If I may...",
-      content: `I am a full-stack developer with experience working on both solo and collaborative 
+      content: `I am a full stack developer with experience working on both solo and collaborative 
       projects focused on usability, performance, and clean architecture. Currently, I’m using Figma 
       to design and prototype UI/UX concepts for ULimo, a growing startup developing a feature called 
       “Dynamic Ride Share” set to launch this summer. The project has given me hands-on product design 
-      experience while I continue growing as a developer and exploring new opportunities in both 
-      software development and cybersecurity. I’m also working toward my CompTIA Security+ certification 
+      experience while I continue growing as a developer and exploring new opportunities in 
+      Software Development, IT, and Cybersecurity. I’m also working toward my CompTIA Security+ certification 
       by first completing the Google Cybersecurity Professional Certificate to build a strong foundation.`,
     },
     experience: {
-      p: "I am actively looking for work",
+      p: "I am actively looking for work! :)",
       h2: "Relevant Work Experience.",
     },
     feedbacks: {
-      p: "What others say",
+      p: "Word on the street",
       h2: "Testimonials.",
     },
     works: {
-      p: "My work",
+      p: "What have I been up to?",
       h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      content: `This section showcases my hands on work across full stack development, real time data systems, and system level recovery. 
+      These projects demonstrate my ability to work across diverse tech stacks, interface with APIs, and engineer solutions to real world 
+      problems. I am currently cooking up... check back soon!`,
     },
   },
 };

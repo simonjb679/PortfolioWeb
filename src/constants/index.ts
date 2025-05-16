@@ -24,12 +24,14 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
+  stocksim,
+  devportfolio,
   linux,
   threejs,
   geeksquad,
   ulimo,
+  brianjanoscrat,
+  alexkotmel,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -153,24 +155,24 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Pending... But it's something good:)))", // This is a placeholder for a testimonial. Add a real testimonial here.
+    name: "Brian Janoscrat",
+    designation: "Technical Support Engineer",
+    company: "CARFAX",
+    image: brianjanoscrat,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Pending, He will also tell you that I am amazing", // This is a placeholder for a testimonial. Add a real testimonial here.
+    name: "Alex Kotmel",
+    designation: "Accountant",
+    company: "Vault Consulting",
+    image: alexkotmel,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Pending, for someone special", // This is a placeholder for a testimonial. Add a real testimonial here.
+    name: "Anonymous",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -181,23 +183,23 @@ const projects: TProject[] = [
   {
     name: "Quick Markets",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Contributing to a real-time stock market simulator with a Django REST API backend and React/Chart.js frontend. Building interactive components and integrating live chart updates based on a Geometric Brownian Motion simulation. Currently onboarding to the codebase and preparing to write test cases for pricing logic.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "chartjs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "restapi",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: stocksim,
+    sourceCodeLink: "https://github.com/MichaelAho1/QuickMarkets.git",
   },
   {
     name: "Dev Portfolio",
@@ -217,7 +219,7 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: devportfolio,
     sourceCodeLink: "https://github.com/",
   },
   {
