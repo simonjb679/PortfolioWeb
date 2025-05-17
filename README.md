@@ -10,7 +10,7 @@ This is a fully customized 3D portfolio built with React, TailwindCSS, and React
 - Responsive design across all devices
 
 ## Live Demo
-🚀 Coming soon
+🚀 https://portfolio-web-cyan-chi.vercel.app/
 
 ## Tech Stack
 - React
