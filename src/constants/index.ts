@@ -51,19 +51,19 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Full-Stack Web App Developer",
+    title: "IT Support & Systems Technician",
     icon: web,
   },
   {
-    title: "UI/UX Designer",
+    title: "Cybersecurity & Ethical Hacking Enthusiast",
     icon: mobile,
   },
   {
-    title: "IT Consultant Support Agent",
+    title: "Aspriring Developer",
     icon: backend,
   },
   {
-    title: "Ethical Hacker Enthusiast",
+    title: "Driven Technologist",
     icon: creator,
   },
 ];
@@ -131,10 +131,13 @@ const experiences: TExperience[] = [
     iconBg: "#383E56",
     date: "Apr 2025 - Present",
     points: [
-      "Performed diagnostics on consumer hardware & software, identifying technical failures.",
-      "Provided tier-1 and tier-2 technical support, including OS re-installation, Device Setup & Customization, data backup and transfer, and peripheral integration.",
-      "Assessed system performance and recommended hardware upgrades, software optimizations, or configuration changes tailored to client needs.",
-      "Delivered post-repair/service client consultations: explaining resolutions, demonstrating proper usage, and ensuring confidence with newly serviced devices.",
+      "Deliver Tier 1–2 technical support across Windows, macOS, and iOS devices, managing 30–40 service tickets daily via Workbench, NOVA, and Apple GSX.",
+      "Perform diagnostics, OS reinstallation, device imaging, data migration, and hardware repairs (batteries, drives, displays).",
+      "Utilize terminal-based tools and recovery environments to troubleshoot bootloader issues, corrupted OS files, and storage failures.",
+      "Provide post-repair walkthroughs, configuration support, and tailored guidance to ensure client confidence and satisfaction.",
+      "Communicate with clients via Outlook and the Geek Squad phone line to manage follow-ups, escalations, and service updates.",
+      "Collaborate with team members through Microsoft Teams to triage issues and maintain smooth service workflows.",
+      "Assist in onboarding new team members by training them on diagnostics tools, service intake procedures, and customer service best practices.",
     ],
   },
   {
@@ -144,10 +147,13 @@ const experiences: TExperience[] = [
     iconBg: "#E6DEDD",
     date: "April 2025 - Present",
     points: [
-      "Designed high-fidelity UI mockups in Figma for both desktop and mobile platforms, contributing to interface planning and layout decisions.",
-      "Collaborated directly with the company founder during product discussions to shape the upcoming “Dynamic Ride Share” feature.",
-      "Proposed and implemented new “Contact Us” and “Careers” sections to improve outreach and attract future collaborators and interns.",
-      "Participated in a remote team using Figma, Google Docs, and Discord to iterate on design & function ideas and share feedback.",
+      "Designed high-fidelity UI mockups in Figma for both desktop and mobile platforms, contributing to interface planning, layout decisions, and user flow discussions.",
+      "Gained exposure to a React/Django-based codebase and contributed early-stage QA testing and interface validation for responsive components.",
+      "Logged and triaged 10–15+ bugs and UI issues weekly using GitLab Issues, collaborating with developers to track fixes and ensure visual consistency.",
+      "Proposed and implemented new “Contact Us” and “Careers” page sections to improve product outreach and attract collaborators & Interns.",
+      "Operated within Agile sprints using Figma, Google Docs, and Discord to communicate progress, exchange feedback, and adapt designs based on technical feasibility.",
+      "Practiced Git version control and CLI navigation in Ubuntu (dual-boot setup) to clone repos, test new features, and troubleshoot environment setup issues.",
+      "Participated in team-wide product meetings with the company founder to shape the “Dynamic Ride Share” feature and overall app roadmap.",
     ],
   },
 ];

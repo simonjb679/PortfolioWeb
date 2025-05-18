@@ -46,7 +46,7 @@ export const config: TConfig = {
   },
   hero: {
     name: "Simon",
-    p: ["I'm a Full Stack Developer"],
+    p: ["CS Student @ GMU | IT / Cybersecurity / Dev"],
   },
   contact: {
     p: "Intrested in hiring me?",
@@ -67,13 +67,20 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "If I may...",
-      content: `I am a full stack developer with experience working on both solo and collaborative 
-      projects focused on usability, performance, and clean architecture. Currently, I’m using Figma 
-      to design and prototype UI/UX concepts for ULimo, a growing startup developing a feature called 
-      “Dynamic Ride Share” set to launch this summer. The project has given me hands-on product design 
-      experience while I continue growing as a developer and exploring new opportunities in 
-      Software Development, IT, and Cybersecurity. I’m also working toward my CompTIA Security+ certification 
-      by first completing the Google Cybersecurity Professional Certificate to build a strong foundation.`,
+      content: `I’m a Computer Science student at George Mason University with hands-on experience in IT support, Linux systems, and collaborative development.
+
+Currently, I work as a Geek Squad IT Consultant, where I troubleshoot hardware/software issues, perform OS-level repairs, and assist clients across Windows, macOS, and Linux environments. I’m also interning as a software developer, gaining experience with GitLab, QA testing, and terminal-based workflows (Bash & zsh).
+
+I’m actively pursuing certifications like CompTIA Security+ and the Google Cybersecurity Certificate to strengthen my foundation in cybersecurity.
+
+Whether it’s resolving system issues, contributing to dev projects, or learning how to secure digital infrastructure, I’m passionate about solving problems and growing as a tech professional.
+
+I’m currently open to part-time or full-time opportunities in:
+- IT Support / Help Desk
+- Linux System Administration (Entry-Level)
+- Cybersecurity Internships / Entry-Level Analyst Roles
+- QA Testing
+`,
     },
     experience: {
       p: "I am actively looking for work! :)",
