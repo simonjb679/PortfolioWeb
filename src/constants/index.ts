@@ -55,11 +55,11 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "Cybersecurity & Ethical Hacking Enthusiast",
+    title: "Aspiring Developer",
     icon: mobile,
   },
   {
-    title: "Aspriring Developer",
+    title: "Cybersecurity & Ethical Hacking Enthusiast",
     icon: backend,
   },
   {
