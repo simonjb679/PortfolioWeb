@@ -129,7 +129,7 @@ const experiences: TExperience[] = [
     companyName: "Geeksquad - Part-time",
     icon: geeksquad,
     iconBg: "#383E56",
-    date: "May 2025 - Present",
+    date: "Apr 2025 - Present",
     points: [
       "Performed diagnostics on consumer hardware & software, identifying technical failures.",
       "Provided tier-1 and tier-2 technical support, including OS re-installation, Device Setup & Customization, data backup and transfer, and peripheral integration.",
