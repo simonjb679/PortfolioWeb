@@ -17,10 +17,10 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  Java,
   tailwind,
   nodejs,
-  mongodb,
+  Python,
   git,
   figma,
   docker,
@@ -70,6 +70,14 @@ const services: TService[] = [
 
 const technologies: TTechnology[] = [
   {
+    name: "Python",
+    icon: Python
+  },
+  {
+    name: "Java",
+    icon: Java,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -90,20 +98,12 @@ const technologies: TTechnology[] = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
