@@ -69,17 +69,15 @@ export const config: TConfig = {
       h2: "If I may...",
       content: `I’m a Computer Science student at George Mason University with hands-on experience in IT support, Linux systems, and collaborative development.
 
-Currently, I work as a Geek Squad IT Consultant, where I troubleshoot hardware/software issues, perform OS-level repairs, and assist clients across Windows, macOS, and Linux environments. I’m also interning as a software developer, gaining experience with GitLab, QA testing, and terminal-based workflows (Bash & zsh).
-
-I’m actively pursuing certifications like CompTIA Security+ and the Google Cybersecurity Certificate to strengthen my foundation in cybersecurity.
+Currently, I work as an IT Consultant agent, where I troubleshoot hardware and software issues, while also guiding clients through post-repair demonstrations to ensure optimal use of their systems. I’m actively pursuing certifications like CompTIA Security+ and the Google Cybersecurity Certificate to strengthen my foundation in cybersecurity.
 
 Whether it’s resolving system issues, contributing to dev projects, or learning how to secure digital infrastructure, I’m passionate about solving problems and growing as a tech professional.
 
 I’m currently open to part-time or full-time opportunities in:
 - IT Support / Help Desk
-- Linux System Administration (Entry-Level)
-- Cybersecurity Internships / Entry-Level Analyst Roles
-- QA Testing
+- Cybersecurity Internships
+- QA Testing Internships
+- Software Development Internships
 `,
     },
     experience: {

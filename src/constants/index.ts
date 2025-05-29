@@ -147,13 +147,11 @@ const experiences: TExperience[] = [
     iconBg: "#E6DEDD",
     date: "April 2025 - Present",
     points: [
-      "Designed high-fidelity UI mockups in Figma for both desktop and mobile platforms, contributing to interface planning, layout decisions, and user flow discussions.",
-      "Gained exposure to a React/Django-based codebase and contributed early-stage QA testing and interface validation for responsive components.",
-      "Logged and triaged bugs and UI issues weekly using GitLab Issues, collaborating with developers to track fixes and ensure visual consistency.",
-      "Proposed and implemented new “Contact Us” and “Careers” page sections to improve product outreach and attract collaborators & Interns.",
-      "Operated within Agile sprints using Figma, Google Docs, and Discord to communicate progress, exchange feedback, and adapt designs based on technical feasibility.",
-      "Practiced Git version control and CLI navigation in Ubuntu and Mac to clone repos, test new features, and troubleshoot environment setup issues.",
-      "Participated in team-wide product meetings with the company founder to shape the “Dynamic Ride Share” feature and overall app roadmap.",
+      "Collaborating with a startup building a dynamic ride-sharing platform for luxury group transportation, including limousines and party buses.",
+      "Contributing to backend development using Supabase, PostgreSQL (PLpgSQL), and TypeScript, implementing ride-matching logic, authentication flows, and structured data workflows.",
+      "Strengthening backend stability and supporting integration with frontend systems to accelerate progress toward a functional MVP.",
+      "Participating in Agile sprints, standups, and retrospectives, working cross-functionally with product and design to align development with business goals.",
+      "Using Git and GitHub to manage version control and collaborate effectively within a remote development team.",
     ],
   },
 ];
