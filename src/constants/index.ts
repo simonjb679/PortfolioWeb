@@ -19,11 +19,9 @@ import {
   reactjs,
   Java,
   tailwind,
-  nodejs,
   Python,
   git,
   figma,
-  docker,
   stocksim,
   devportfolio,
   linux,
@@ -32,6 +30,8 @@ import {
   ulimo,
   brianjanoscrat,
   alexkotmel,
+  PostgreSQL,
+  clickup
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -101,10 +101,7 @@ const technologies: TTechnology[] = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+  
   {
     name: "Three JS",
     icon: threejs,
@@ -118,9 +115,14 @@ const technologies: TTechnology[] = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "PostgreSQL",
+    icon: PostgreSQL, 
   },
+  {
+    name: "ClickUp",
+    icon: clickup,
+  },
+
 ];
 
 const experiences: TExperience[] = [
