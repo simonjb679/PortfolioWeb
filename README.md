@@ -1,6 +1,7 @@
 # Simon Benitez | Portfolio
 
-This is a fully customized 3D portfolio built with React, TailwindCSS, and React Three Fiber. Originally based on an open-source template by [ladunjexa](https://github.com/ladunjexa/reactjs18-3d-portfolio), this version has been heavily modified to showcase my work, skills, and technical experience.
+This is a fully customized 3D portfolio built with React, TailwindCSS, and React Three Fiber.
+
 
 ## Features
 - 3D animated interface using React Three Fiber
