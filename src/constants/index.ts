@@ -127,34 +127,24 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "IT Consultant | Support Agent",
-    companyName: "Geeksquad - Part-time",
-    icon: geeksquad,
-    iconBg: "#383E56",
-    date: "Apr 2025 - Present",
-    points: [
-      "Deliver Tier 1–2 technical support across Windows, macOS, and iOS devices, managing 30–40 service tickets daily via Workbench, NOVA, and Apple GSX.",
-      "Perform diagnostics, OS reinstallation, device imaging, data migration, and hardware repairs (batteries, drives, displays).",
-      "Utilize terminal-based tools and recovery environments to troubleshoot bootloader issues, corrupted OS files, and storage failures.",
-      "Provide post-repair walkthroughs, configuration support, and tailored guidance to ensure client confidence and satisfaction.",
-      "Communicate with clients via Outlook and the Geek Squad phone line to manage follow-ups, escalations, and service updates.",
-      "Collaborate with team members through Microsoft Teams to triage issues and maintain smooth service workflows.",
-      "Assist in onboarding new team members by training them on diagnostics tools, service intake procedures, and customer service best practices.",
-    ],
-  },
-  {
-    title: "Software Developer",
+    title: "Software Developer Intern",
     companyName: "ULimo",
     icon: ulimo,
-    iconBg: "#E6DEDD",
+    iconBg: "#130e00ff",
+    date: "May 2025 - Present",
+    points: 
+      "Collaborated with a fast-moving startup on multiple full-stack projects. Contributed to backend development using Supabase and PostgreSQL, integrated automation tools like an Instagram DM bot, and helped design UI/UX solutions for the company’s ride-share driver portal using Figma. Actively participated in Agile sprints, technical standups, and GitHub workflows to deliver scalable, production-ready features.",
+    
+  },
+  {
+    title: "Advanced Repair Technician",
+    companyName: "GeekSquad",
+    icon: geeksquad,
+    iconBg: "#e98c13ff",
     date: "April 2025 - Present",
-    points: [
-      "Collaborating with a startup building a dynamic ride-sharing platform for luxury group transportation, including limousines and party buses.",
-      "Contributing to backend development using Supabase, PostgreSQL (PLpgSQL), and TypeScript, implementing ride-matching logic, authentication flows, and structured data workflows.",
-      "Strengthening backend stability and supporting integration with frontend systems to accelerate progress toward a functional MVP.",
-      "Participating in Agile sprints, standups, and retrospectives, working cross-functionally with product and design to align development with business goals.",
-      "Using Git and GitHub to manage version control and collaborate effectively within a remote development team.",
-    ],
+    points: 
+      "Diagnosed and resolved a wide range of hardware and software issues in consumer and company devices. Assembled custom PC builds, replaced components in laptops, AIO desktops, and Apple products. Extracted and transfered data from damaged or inaccessible systems, and reimaged machines using advanced tools like command prompt bypasses. Maintained thorough repair documentation to ensure seamless technician handoffs and team efficiency.",
+    
   },
 ];
 

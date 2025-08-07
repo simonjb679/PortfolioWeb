@@ -68,17 +68,7 @@ export const config: TConfig = {
       p: "Introduction",
       h2: "If I may...",
       content: 
-      `I’m a Computer Science student at George Mason University with real-world experience in advanced hardware repairs, Linux systems, and building software with small, collaborative teams.
-       Right now, I work as an Advanced Repair Technician at Geek Squad, where I handle the tough jobs — diagnosing and fixing complex hardware and software issues, recovering systems, and making sure every client feels confident using their device when they leave.
-       On top of that, I’m part of a growing startup, ULimo, where I’ve worked on some exciting projects like an Instagram DM automation bot and the driver portal for their new rideshare platform. Being part of those teams has taught me a lot about backend systems, automation, and how to turn ideas into working products.
-       I’ve also earned my Google Cybersecurity Professional Certificate, and I’m planning to keep building on that with the CompTIA Security+ next.
-       I’m passionate about solving problems, learning new things, and building tools that make a difference. Right now, I’m looking for opportunities in:
-       
-       Data Center Technician,
-       Cybersecurity Internships,
-       and
-       Software Development Internships.
-  `,
+      `I’m a Computer Science student at George Mason University with a passion for technology and a drive to learn. My journey in tech began with a fascination for computers, leading me to explore various fields including IT, software development, and cybersecurity. I thrive on challenges and am always eager to expand my skill set, whether it’s through hands-on projects or academic pursuits. My goal is to leverage my diverse experiences to make a meaningful impact in the tech industry.`,
     },
     experience: {
       p: "I am actively looking for work! :)",
@@ -89,11 +79,9 @@ export const config: TConfig = {
       h2: "Testimonials.",
     },
     works: {
-      p: "What have I been up to?",
+      p: "Coming soon",
       h2: "Projects.",
-      content: `This section showcases my hands on work across full stack development, real time data systems, and system level recovery. 
-      These projects demonstrate my ability to work across diverse tech stacks, interface with APIs, and engineer solutions to real world 
-      problems. I am currently cooking up... check back soon!`,
+      content: `This section will showcase my hands on work across full stack development. I am currently working on a couple of projects that will be added soon.`,
     },
   },
 };
