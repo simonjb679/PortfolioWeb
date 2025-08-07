@@ -51,7 +51,7 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "IT Support & Systems Technician",
+    title: "Computer Technician",
     icon: web,
   },
   {
@@ -59,7 +59,7 @@ const services: TService[] = [
     icon: mobile,
   },
   {
-    title: "Cybersecurity & Ethical Hacking Enthusiast",
+    title: "Ethical Hacking Enthusiast",
     icon: backend,
   },
   {

@@ -45,11 +45,11 @@ export const config: TConfig = {
     email: "johndoe@mail.com",
   },
   hero: {
-    name: "Simon",
-    p: ["CS Student @ GMU | IT / Dev"],
+    name: "Benitez",
+    p: ["CS Student @ GMU | Full Stack Developer"],
   },
   contact: {
-    p: "Intrested in hiring me?",
+    p: "Intrested in hiring me or just catching my attention?",
     h2: "Contact Me.",
     form: {
       name: {
@@ -66,7 +66,7 @@ export const config: TConfig = {
   sections: {
     about: {
       p: "Introduction",
-      h2: "If I may...",
+      h2: "</>",
       content: 
       `I’m a Computer Science student at George Mason University with a passion for technology and a drive to learn. My journey in tech began with a fascination for computers, leading me to explore various fields including IT, software development, and cybersecurity. I thrive on challenges and am always eager to expand my skill set, whether it’s through hands-on projects or academic pursuits. My goal is to leverage my diverse experiences to make a meaningful impact in the tech industry.`,
     },
