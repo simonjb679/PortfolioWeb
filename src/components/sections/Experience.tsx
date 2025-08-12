@@ -42,9 +42,11 @@ const ExperienceCard: React.FC<TExperience> = (experience) => {
         </p>
       </div>
 
-      <p className="ml-5 mt-5 text-white-100 pl-1 text-[14px] tracking-wider">
-        {experience.points}
-      </p>
+      <ul className="ml-5 mt-5 list-disc space-y-2 pl-5 text-white-100 text-[14px] tracking-wider">
+        {experience.points.map((point, idx) => (
+          <li key={idx}>{point}</li>
+        ))}
+      </ul>
     </VerticalTimelineElement>
   );
 };
