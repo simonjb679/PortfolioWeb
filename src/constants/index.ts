@@ -131,7 +131,7 @@ const experiences: TExperience[] = [
     companyName: "ULimo",
     icon: ulimo,
     iconBg: "#130e00ff",
-    date: "May 2025 - Present",
+    date: "May 2025 - Aug 2025",
     points: [
       "Architected a scalable backend using Supabase and PostgreSQL to optimize ride data queries, reducing API response times by 40%.",
       "Designed interactive UI/UX mockups in Figma for the new driver portal, accelerating stakeholder approvals by 70%.",
