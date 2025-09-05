@@ -145,7 +145,7 @@ const experiences: TExperience[] = [
     companyName: "GeekSquad",
     icon: geeksquad,
     iconBg: "#e98c13ff",
-    date: "April 2025 - Present",
+    date: "Nov 2024 - Present",
     points: [
       "Diagnosed & resolved hardware/software failures across Windows, macOS, and iPhone devices, restoring client devices to full functionality within service-level targets.",
       "Assembled custom PC builds and performed component-level repairs on laptops, AIO desktops, and Apple products, reducing turnaround time on complex builds.",
