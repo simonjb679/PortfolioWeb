@@ -81,14 +81,14 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
-          <li className="flex gap-4">
+          <li className="flex gap-6 mr-8">
             <a
               href="https://github.com/simonjb679"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:opacity-80"
             >
-              <img src={github} alt="GitHub" className="w-6 h-6" />
+              <img src={github} alt="GitHub" className="w-8 h-8" />
             </a>
             <a
               href="https://www.linkedin.com/in/simon-benitez"
@@ -96,7 +96,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
               className="hover:opacity-80"
             >
-              <img src={linkedin} alt="LinkedIn" className="w-6 h-6" />
+              <img src={linkedin} alt="LinkedIn" className="w-8 h-8" />
             </a>
           </li>
         </ul>
@@ -128,7 +128,7 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
-              <li className="flex gap-4">
+              <li className="flex gap-6">
                 <a
                   href="https://github.com/simonjb679"
                   target="_blank"
@@ -136,7 +136,7 @@ const Navbar = () => {
                   className="hover:opacity-80"
                   onClick={() => setToggle(false)}
                 >
-                  <img src={github} alt="GitHub" className="w-6 h-6" />
+                  <img src={github} alt="GitHub" className="w-8 h-8" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/simon-benitez"
@@ -145,7 +145,7 @@ const Navbar = () => {
                   className="hover:opacity-80"
                   onClick={() => setToggle(false)}
                 >
-                  <img src={linkedin} alt="LinkedIn" className="w-6 h-6" />
+                  <img src={linkedin} alt="LinkedIn" className="w-8 h-8" />
                 </a>
               </li>
             </ul>
