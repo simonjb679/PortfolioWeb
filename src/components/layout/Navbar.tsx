@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../../constants/styles";
 import { navLinks } from "../../constants";
-import { logo, menu, close } from "../../assets";
+import { logo, menu, close, github, linkedin } from "../../assets";
 import { config } from "../../constants/config";
 
 const Navbar = () => {
@@ -81,6 +81,24 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li className="flex gap-4">
+            <a
+              href="https://github.com/simonjb679"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80"
+            >
+              <img src={github} alt="GitHub" className="w-6 h-6" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/simon-benitez"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80"
+            >
+              <img src={linkedin} alt="LinkedIn" className="w-6 h-6" />
+            </a>
+          </li>
         </ul>
 
         <div className="flex flex-1 items-center justify-end sm:hidden">
@@ -110,6 +128,26 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li className="flex gap-4">
+                <a
+                  href="https://github.com/simonjb679"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80"
+                  onClick={() => setToggle(false)}
+                >
+                  <img src={github} alt="GitHub" className="w-6 h-6" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/simon-benitez"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80"
+                  onClick={() => setToggle(false)}
+                >
+                  <img src={linkedin} alt="LinkedIn" className="w-6 h-6" />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
