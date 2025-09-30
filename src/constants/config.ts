@@ -46,7 +46,7 @@ export const config: TConfig = {
   },
   hero: {
     name: "Benitez",
-    p: ["CS Student @ GMU | Full Stack Developer"],
+    p: ["CS Student @ GMU | Full-Stack SWE"],
   },
   contact: {
     p: "Intrested in hiring me or just catching my attention?",
@@ -68,7 +68,7 @@ export const config: TConfig = {
       p: "Introduction",
       h2: "</>",
       content: 
-      `I’m a Computer Science student at George Mason University with a passion for technology and a drive to learn. My journey in tech began with a fascination for computers, leading me to explore various fields including IT, software development, and cybersecurity. I thrive on challenges and am always eager to expand my skill set, whether it’s through hands-on projects or academic pursuits. My goal is to leverage my diverse experiences to make a meaningful impact in the tech industry.`,
+      "Hi! I’m an undergraduate Computer Science student with experience in Spring Boot, Apache Kafka, Supabase, TypeScript, PostgreSQL, REST APIs, and cloud technologies through projects and internships. I’m open to internship opportunities for Summer 2026 and potentially during Winter Break 2025."
     },
     experience: {
       p: "I am actively looking for work! :)",
